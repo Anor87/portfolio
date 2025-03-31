@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Alexia Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/project-reflection.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <a href="index.html"><span>Alexia</span></a>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="project.html">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Blogs</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <a href="project.html">Projects</a>
+                <a href="">Blogs</a>
+                <a href="">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section class="projects-reflection">
+            <h1 class="section-title">Project 1: CantoMate -- A Chatbot for New Immigrant from Mainland China</h1>
+            <div class="projects-container">
+                <div class="card">
+                    <h3 class="sub-heading">Project Description and Goals</h3>
+                    <div class="img-box">
+                        <img class= "cover" src="img/newImmigrants.png" alt="New Immigrants from Mainland China">
+                    </div>
+                    <p >
+                        Project 2 explores using chatbots to facilitate hospitality service. 
+                        Our goal is to identify a target user, understand their obstacles and analyze what features should be included in our application. <br/>
+                        <br/>
+                        Our group identified a scenario where new immigrants from mainland China face difficulties when they come to Hong Kong. We hope that our chatbot 
+                        can help them blend more easily into Hong Kong society. Therefore, we first interviewed mainlanders in HKUST to understand their pain points and 
+                        started brainstorming what features should be included. 
+                        The following details our learning processes and reflections. 
+                    </p>
+                </div>
+                <div class="card">
+                <h3 class="sub-heading">Learning and Execution Process</h3>
+                <div class="img-box">
+                    <img class= "cover" src="img/interview.png" alt="Interview with target user">
+                </div>
+                    <p>
+                        When defining hospitality, we found that it means making people feel welcome and should not be limited to traditional hospitality industries like hotels and catering. Therefore, we decided that our chatbot could help newcomers
+                        to adapt their lives in Hong Kong. To narrow our scope, our group would focus on new immigrants from mainland China. <br />
+                        <br/>
+                        We began by researching the difficulties new immigrants faced by reading government reports and conducting interviews. It revealed that language is the greatest challenge they face. Some interviewees mentioned that while they used 
+                        to read simplified Chinese and mainland phrases, they usually paused and pondered what the traditional Chinese meant given one lived in Guangzhou.  Not only did they face a language barrier, but they also found applying for financial 
+                        subsidies hard with a load of documents required. One interviewee shared with us that he wanted to connect with mainlanders from all walks of life as most members in the current WeChat group are students. 
+                    </p>
+                    <br/>
+                    <p>
+                        To organize what we heard from our target users, we drew an empathy map to conclude what new immigrants see, think, hear and do. After gathering information, we conducted a brainstorming session where we proposed what features should be 
+                        included in our Chatbots, such as FAQ and Cantonese text-to-speech. We also agreed that building a community for our key users is important to connect, so we decided to make a webpage with a forum and activities page along with the chatbot. 
+                    </p>
+
+                </div>
+                <div class="card">
+                    <h3 class="sub-heading">Personal Contributions and Achievements</h3>
+                    <div class="img-box">
+                        <img class= "cover" src="img/brainstorming.jpg" alt="Brainstorming">
+                    </div>
+                    <p>
+                        After conducting research and interviews with the target user, I was responsible for drawing a persona and empathy map to compile what difficulties they faced and their suggestions on what feature they wanted. During the brainstorming stage, 
+                        I suggested that apart from the chatbot, we can perhaps make a community for the newcomers.  Eventually, we decided that we could create a forum page where users can post their questions and sharing while connecting with others by simply clicking 
+                        others’ usernames. 
+                        <br/>
+                        <br/>
+                        When developing the prototype, not only did I create a low-fidelity prototype for the activity page and forum page with Figma, but I also changed some CSS elements in the Streamlit including the sidebar. Meanwhile, I invited two friends to participate 
+                        in our usability test to earn some feedback from them.  During the usability test, I tried to guide our user to explore our application and conducted a post-survey, which was prepared by my groupmate. Eventually, I compiled our learning process into a PowerPoint.
+                    </p>
+                </div>
+                <div class="card">
+                <h3 class="sub-heading">Knowledge Gained and Lessons Learned</h3>
+                    <br/>
+                    <div class="img-box">
+                        <img class= "contain" src="img/usability.png" alt="Conducting usability test">
+                    </div>
+                    <p>
+                        One of the most valuable lessons from this project was to understand our users by approaching them in different stages of development, from ideating to prototyping. Before designing what features the chatbot has, we first interviewed key users to understand the biggest 
+                        pain point they faced when living in Hong Kong, which allowed us to understand user needs more comprehensively and design a user-centred solution. After building the prototype, it is important to reach out to the user to gain feedback and insights to refine our products. 
+                        For instance, in the post-survey of the usability test, some users suggested adding a button to allow users to choose what language they want for the text-to-speech functions while we assumed that most users would only want Cantonese audio. This exemplifies the importance 
+                        of developing applications along with our users. 
+                        <br/>
+                        <br/>
+                        Another key takeaway from this project was learning how to conduct a usability test, as I had never done one before. Throughout the process, I gained hands-on experience in designing test scenarios, selecting participants, and guiding users to explore our application. 
+                        Observing how users interacted with our prototype allowed me to identify usability issues and understand their pain points more effectively. I also learned the importance of collecting qualitative feedback and refining our design based on user insights. This experience 
+                        reinforced the value of user-centred development and highlighted how small adjustments could significantly enhance the overall user experience.
+                        <br/>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+</body>
+</html>
