@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Alexia Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="project-reflection.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <a href="index.html"><span>Alexia</span></a>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="project.html">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Blogs</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <a href="project.html">Projects</a>
+                <a href="">Blogs</a>
+                <a href="">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section class="projects-reflection">
+            <h1 class="section-title">Project 3: Artefy -- Your Personalised Guide in Art Museum</h1>
+            <div class="projects-container">
+                <div class="card">
+                    <h3 class="sub-heading">Project Description and Goals</h3>
+                    <div class="img-box">
+                        <img class= "cover" src="art_exhibition.JPG" alt="Art Exhibition">
+                    </div>
+                    <p >
+                        This project aims to identify a real-world user scenario in which social extended reality (XR) can support a local community. The first step was to select a community in need and justify their needs through user research and empathy-driven design. 
+                        After identifying the target users and validating their pain points, we explored how XR could serve as a superior alternative to existing solutions. Based on our insights, we proceeded to design and develop an interactive prototype to address those user needs.
+                    </p>
+                </div>
+                <div class="card">
+                <h3 class="sub-heading">Learning and Execution Process</h3>
+                <div class="img-box">
+                    <img class= "cover" src="user.JPG" alt="our user">
+                </div>
+                    <p>
+                        To identify a relevant user group, our team began by brainstorming potential communities who could benefit from an XR-based solution. We considered several options, including elderly individuals, HKUST students, and art museum visitors. We ultimately selected art museum visitors as our target users, 
+                        as we believed XR offered the most compelling and feasible applications in this context.
+                        <br/>
+                        <br/>
+                        To verify user needs and uncover pain points, we adopted a combination of shadowing and survey methods. I personally visited the exhibition Cézanne and Renoir: Looking at the World to observe visitor behavior. I took detailed notes on user interactions, such as using Google Lens to search for background information, 
+                        engaging in discussions about the artists' lives, and taking photographs of the artworks. These observations revealed that visitors were seeking a more interactive and less text-heavy way to understand the deeper context and hidden stories behind the artworks. Our survey findings reinforced this insight.
+                        <br/>
+                        <br/>
+                        From this, we developed a point-of-view (POV) statement: Art museum visitors need a more engaging and interactive way to discover the context and hidden narratives of both the artworks and the artists.
+                        <br/>
+                        <br/>
+                        With this user need in mind, we brainstormed XR-based solutions. Our initial idea involved creating one or two interactive AR mini-games to deliver contextual information in a playful, engaging manner. We visualized these concepts through storyboarding and validated them using a speed-dating method with potential users. 
+                        The two most well-received ideas were a time-lapse feature and a “find a specific element” game. Due to time constraints, we prototyped the time-lapse interaction using Figma, and implemented the find-the-element game using Unity.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3 class="sub-heading">Personal Contributions and Achievements</h3>
+                    <div class="img-box">
+                        <img class= "cover" src="AR.png" alt="AR">
+                    </div>
+                    <p>
+                        As our project encouraged role-switching among team members, I primarily took on the role of prototype developer in this project cycle. 
+                        Although I was less involved in the early stages of user interviews and empathy mapping, I still contributed to the user research by visiting the 
+                        art museum and helping draw the initial storyboards that captured user pain points and potential XR solutions. 
+                        <br/>
+                        <br/>
+                        My main responsibility was developing the interactive AR prototype using Unity. I created a simple yet functional AR mini-game where users could tap on the darkest corner of a painting to trigger an information box containing contextual details. This interaction served to make hidden aspects of the artwork more accessible and engaging for users.
+                        <br/>
+                        <br/>
+                        In addition, I conducted a user acceptance test (UAT) session to gather qualitative feedback on the prototype’s usability and engagement level. I used the insights from this session to refine the experience and contributed to improving our final presentation slides.
+                        <br/>
+                        <br/>
+                        Through this process, I gained hands-on experience in Unity development and strengthened my understanding of how XR can enhance storytelling in cultural and educational settings.
+                    </p>
+                </div>
+                <div class="card">
+                <h3 class="sub-heading">Knowledge Gained and Lessons Learned</h3>
+                    <br/>
+                    <div class="img-box">
+                        <img class= "contain" src="userhabit.png" alt="User Habit">
+                    </div>
+                    <p>
+                        One of the most valuable lessons I learned from this project is the importance of user-centered design in creating effective digital experiences. Initially, my prototype lacked clear instructions, which led to confusion among my teammates during early testing. This experience taught me how crucial it is to provide intuitive guidance and align the user interface with user expectations. After receiving feedback, I revised the prototype to include step-by-step instructions, which significantly improved usability.
+                        <br/>
+                        <br/>
+                        I also learned to think more critically about user behavior and context of use. For example, art museum visitors are often in a contemplative, mobile state; this influenced how we designed interaction flows to be quick, intuitive, and immersive without overwhelming the user.
+                        <br/>
+                        <br/>
+                        Additionally, I gained technical skills in Unity and AR development, as well as experience with iterative design, prototyping under time constraints, and balancing feasibility with creativity. The project deepened my appreciation for how XR can offer not just novel interactions, but meaningful, context-aware experiences that enhance learning and engagement in public spaces.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+</body>
+</html>
